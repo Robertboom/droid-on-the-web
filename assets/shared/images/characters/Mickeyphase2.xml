@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Mickeyphase2.png" width="3584" height="4064">
+  <SubTexture name="Up0002" x="0" y="0"  width="753" height="944" frameX="-0" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Up0001" x="0" y="944"  width="749" height="942" frameX="-3" frameY="-1" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Up0000" x="0" y="1886"  width="747" height="939" frameX="-3" frameY="-3" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0006" x="0" y="2825"  width="626" height="851" frameX="-0" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0007" x="626" y="2825"  width="626" height="851" frameX="-0" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0005" x="747" y="1886"  width="625" height="851" frameX="-1" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0004" x="749" y="944"  width="631" height="844" frameX="-3" frameY="-7" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0003" x="753" y="0"  width="615" height="836" frameX="-16" frameY="-15" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0000" x="1368" y="0"  width="619" height="834" frameX="-17" frameY="-16" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0001" x="1252" y="2737"  width="614" height="830" frameX="-21" frameY="-20" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Idle0002" x="1372" y="1788"  width="614" height="829" frameX="-22" frameY="-21" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Left0002" x="1866" y="834"  width="746" height="825" frameX="-2" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Left0000" x="1987" y="0"  width="748" height="824" frameX="-0" frameY="-1" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Right0002" x="2735" y="0"  width="849" height="745" frameX="-0" frameY="-2" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Right0001" x="2735" y="745"  width="847" height="745" frameX="-0" frameY="-2" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Right0000" x="2735" y="1490"  width="844" height="747" frameX="-0" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Left0001" x="1986" y="1659"  width="743" height="824" frameX="-5" frameY="-1" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Down0002" x="1986" y="2483"  width="664" height="785" frameX="-0" frameY="-11" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Down0000" x="1986" y="3268"  width="659" height="796" frameX="-3" frameY="-0" frameWidth="849" frameHeight="944"/>
+  <SubTexture name="Down0001" x="2645" y="3268"  width="662" height="789" frameX="-1" frameY="-7" frameWidth="849" frameHeight="944"/>
+</TextureAtlas>
