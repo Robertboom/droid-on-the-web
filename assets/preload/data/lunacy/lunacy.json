@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bffake",
-		"player2": "mickey",
+		"player2": "mickeysadistic",
 		"events": [
 			[
 				0,
@@ -207,7 +207,7 @@
 				21333.3333333333,
 				[
 					[
-						"Change Character",
+						"no",
 						"1",
 						"mickeysadistic"
 					],
