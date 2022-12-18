@@ -183,6 +183,23 @@ class Character extends FlxSprite
 				addOffset("singDOWN", -50, -130);
 
 				playAnim('danceRight');
+				
+				case 'mickeysadistic':
+				tex = Paths.getSparrowAtlas('characters/Mickeyphase2');
+				frames = tex;
+				animation.addByPrefix('idle', 'Idle', 24);
+				animation.addByPrefix('singUP', 'Up', 24);
+				animation.addByPrefix('singRIGHT', 'Right', 24);
+				animation.addByPrefix('singDOWN', 'Down', 24);
+				animation.addByPrefix('singLEFT', 'Left', 24);
+
+				addOffset("idle",77, 339);
+				addOffset("singUP",82 , 449 );
+				addOffset("singRIGHT", 30, 251);
+				addOffset("singLEFT", 196, 333);
+				addOffset("singDOWN", 119, 294);
+
+				playAnim('idle');
 			case 'mom':
 				tex = Paths.getSparrowAtlas('characters/Mom_Assets');
 				frames = tex;
