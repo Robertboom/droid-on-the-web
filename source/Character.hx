@@ -194,11 +194,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Down', 15);
 				animation.addByPrefix('singLEFT', 'Left', 15);
 
-				addOffset("idle",590, 640);
-				addOffset("singUP",570 , 630);
-				addOffset("singRIGHT", 540, 642);
-				addOffset("singLEFT", 570, 654);
-				addOffset("singDOWN", 590, 642);
+				addOffset("idle",0, 97);
+				addOffset("singUP",2, 190);
+				addOffset("singRIGHT",-30, 6);
+				addOffset("singLEFT",167, 83);
+				addOffset("singDOWN",24, 47);
 
 				playAnim('idle');
 			case 'mom':
