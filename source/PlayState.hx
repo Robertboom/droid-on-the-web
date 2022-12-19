@@ -2494,8 +2494,8 @@ class PlayState extends MusicBeatState
 		switch (curSong) {
 			case 'lunacy':
 				switch (curStep) {
-					case 256: //This is the curStep found in the Debug Menu. This is how events are timed.
-					remove(dad); //values are dad, bf, gf
+					case 256:
+					remove(dad);
 						dad = new Character(100, 100 'dad');
 						add(dad);
 
