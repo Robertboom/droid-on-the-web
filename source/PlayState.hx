@@ -2490,6 +2490,14 @@ class PlayState extends MusicBeatState
 			FlxG.camera.zoom += 0.015;
 			camHUD.zoom += 0.03;
 		}
+		
+		switch (curSong) {
+			case 'lunacy':
+				switch (curStep) {
+					case 256: //This is the curStep found in the Debug Menu. This is how events are timed.
+					remove(dad); //values are dad, bf, gf
+						dad = new Character(100, 100 'dad');
+						add(dad);
 
 		iconP1.setGraphicSize(Std.int(iconP1.width + 30));
 		iconP2.setGraphicSize(Std.int(iconP2.width + 30));
