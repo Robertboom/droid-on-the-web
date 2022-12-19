@@ -2511,14 +2511,14 @@ class PlayState extends MusicBeatState
 		{
 			boyfriend.playAnim('hey', true);
 		}
-		if (curStep % 256 == 255 && curSong == 'lunacy')
+		(curStep % 256 == 255 && curSong == 'lunacy')
 		{
 		remove(dad);
 						dad = new Character(100, 100 'mickeysadistic');
 						add(dad);
 				}
 		} 
-		if (curStep % 0 == 0 && curSong == 'lunacy')
+		(curStep % 0 == 0 && curSong == 'lunacy')
 		{
 		remove(dad);
 						dad = new Character(100, 100 'dad');
