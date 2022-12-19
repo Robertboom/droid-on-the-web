@@ -216,6 +216,7 @@ class Character extends FlxSprite
 				addOffset("singRIGHT",151, 306);
 				addOffset("singLEFT",151, 306);
 				addOffset("singDOWN",151, 306);
+                                setGraphicSize(Std.int(width * 1.4));
 
 				playAnim('idle');
 			case 'mom':
