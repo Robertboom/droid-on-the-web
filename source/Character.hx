@@ -188,17 +188,17 @@ class Character extends FlxSprite
 				case 'mickeysadistic':
 				tex = Paths.getSparrowAtlas('characters/Mickeyphase2');
 				frames = tex;
-				animation.addByPrefix('idle', 'Idle', 24);
-				animation.addByPrefix('singUP', 'Up', 24);
-				animation.addByPrefix('singRIGHT', 'Right', 24);
-				animation.addByPrefix('singDOWN', 'Down', 24);
-				animation.addByPrefix('singLEFT', 'Left', 24);
+				animation.addByPrefix('idle', 'Idle', 15);
+				animation.addByPrefix('singUP', 'Up', 15);
+				animation.addByPrefix('singRIGHT', 'Right', 15);
+				animation.addByPrefix('singDOWN', 'Down', 15);
+				animation.addByPrefix('singLEFT', 'Left', 15);
 
-				addOffset("idle",77, 339);
-				addOffset("singUP",82 , 449 );
-				addOffset("singRIGHT", 30, 251);
-				addOffset("singLEFT", 196, 333);
-				addOffset("singDOWN", 119, 294);
+				addOffset("idle",590, 640);
+				addOffset("singUP",570 , 630);
+				addOffset("singRIGHT", 540, 642);
+				addOffset("singLEFT", 570, 654);
+				addOffset("singDOWN", 590, 642);
 
 				playAnim('idle');
 			case 'mom':
