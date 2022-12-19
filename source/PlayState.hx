@@ -2517,15 +2517,6 @@ class PlayState extends MusicBeatState
 			boyfriend.playAnim('hey', true);
 			dad.playAnim('cheer', true);
 		}
-		switch (curSong) {
-			case 'lunacy':
-				switch (curStep) {
-					case 256:
-					remove(dad);
-						dad = new Character(100, 100 'bf');
-						add(dad);
-				}
-		}
 
 		switch (curStage)
 		{
