@@ -2521,6 +2521,7 @@ class PlayState extends MusicBeatState
 	dad = new Character(100, 100 'mickeysadistic');
 						add(dad);
 		}
+		 }
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 		{
