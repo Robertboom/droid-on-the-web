@@ -2514,13 +2514,14 @@ class PlayState extends MusicBeatState
 		if (curBeat % 0 == 0 && curSong == 'lunacy')
 		{
 	dad = new Character(100, 100 'dad');
+	}
 						add(dad);
-				}
+						
 				if (curBeat % 256 == 255 && curSong == 'lunacy')
 		{
 	dad = new Character(100, 100 'mickeysadistic');
+	}
 						add(dad);
-		}
 		 }
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
