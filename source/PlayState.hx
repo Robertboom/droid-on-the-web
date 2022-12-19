@@ -2510,7 +2510,14 @@ class PlayState extends MusicBeatState
 		if (curBeat % 8 == 7 && curSong == 'Bopeebo')
 		{
 			boyfriend.playAnim('hey', true);
-		} 
+		}
+	 
+	 if (CurStep % 0 == 0 && curSong == 'lunacy')
+	 {
+	 remove(dad);
+						dad = new Character(100, 100 'dad');
+						add(dad);
+						}
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 		{
