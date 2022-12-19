@@ -2511,18 +2511,20 @@ class PlayState extends MusicBeatState
 		{
 			boyfriend.playAnim('hey', true);
 		}
-	 
-	  (CurStep % 0 == 0 && curSong == 'lunacy')
-	 {
-	 remove(dad);
-						dad = new Character(100, 100 'dad');
-						add(dad);
-						}
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 		{
 			boyfriend.playAnim('hey', true);
 			dad.playAnim('cheer', true);
+		}
+		switch (curSong) {
+			case 'lunacy':
+				switch (curStep) {
+					case 256:
+					remove(dad);
+						dad = new Character(100, 100 'bf');
+						add(dad);
+				}
 		}
 
 		switch (curStage)
