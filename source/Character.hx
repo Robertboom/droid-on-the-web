@@ -203,7 +203,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
                                 case 'mickey':
-				tex = Paths.getSparrowAtlas('characters/Mickeyphase2');
+				tex = Paths.getSparrowAtlas('characters/Mickey1');
 				frames = tex;
 				animation.addByPrefix('idle', 'Mickey1 Idle', 24);
 				animation.addByPrefix('singUP', 'Mickey1 Up', 24);
