@@ -202,7 +202,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
-                                case 'mickey':
+                       case 'mickey':
 				tex = Paths.getSparrowAtlas('characters/Mickey1');
 				frames = tex;
 				animation.addByPrefix('idle', 'Mickey1 Idle', 24);
@@ -217,6 +217,22 @@ class Character extends FlxSprite
 				addOffset("singLEFT",151, 0);
 				addOffset("singDOWN",151, 0);
                                 setGraphicSize(Std.int(width * 1.4));
+                             case 'bffake':
+				tex = Paths.getSparrowAtlas('characters/Mickey1');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singRIGHT', 'left', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+				animation.addByPrefix('singLEFT', 'right', 24);
+
+				addOffset("idle",-271, -278);
+				addOffset("singUP",-244, -182);
+				addOffset("singRIGHT",-264, -261);
+				addOffset("singLEFT",-219, -268);
+				addOffset("singDOWN",-249, -238);
+                                setGraphicSize(Std.int(width * 1.2));
+
 
 				playAnim('idle');
 			case 'mom':
