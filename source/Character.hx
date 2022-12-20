@@ -217,8 +217,9 @@ class Character extends FlxSprite
 				addOffset("singLEFT",151, 0);
 				addOffset("singDOWN",151, 0);
                                 setGraphicSize(Std.int(width * 1.4));
-                             case 'bffake':
-				tex = Paths.getSparrowAtlas('characters/Mickey1');
+                          
+                                 case 'bffake':
+				tex = Paths.getSparrowAtlas('characters/bfGrey');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24);
 				animation.addByPrefix('singUP', 'up', 24);
