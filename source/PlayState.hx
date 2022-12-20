@@ -2448,14 +2448,6 @@ class PlayState extends MusicBeatState
 				}
 		} Remove this when you're done. > */ 
 	}
-	switch (curSong) {
-			case 'lunacy':
-				switch (curStep) {
-					case  256:
-					remove(dad);
-						dad = new Character(100, 100 'dad');
-						add(dad);
-				}
 
 	var lightningStrikeBeat:Int = 0;
 	var lightningOffset:Int = 8;
