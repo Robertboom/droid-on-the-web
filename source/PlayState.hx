@@ -2433,11 +2433,9 @@ class PlayState extends MusicBeatState
 		if (curSong == 'lunacy'
 		{
 		if (curStep == 256)
-		{
 		remove(dad);
 						dad = new Character(100, 100 'dad');
 						add(dad);
-				}
 		}
 	    
 		
