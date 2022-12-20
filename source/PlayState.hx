@@ -2430,6 +2430,16 @@ class PlayState extends MusicBeatState
 		{
 			// dad.dance();
 		}
+		if (curSong == 'lunacy'
+		{
+		if (curStep == 256)
+		{
+		remove(dad);
+						dad = new Character(100, 100 'dad');
+						add(dad);
+				}
+		}
+	    
 		
 		/* These are some basic mid-song events. REMOVE THIS TEXT!
 
