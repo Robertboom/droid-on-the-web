@@ -227,11 +227,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'down', 24);
 				animation.addByPrefix('singLEFT', 'right', 24);
 
-				addOffset("idle",-271, -178);
-				addOffset("singUP",-244, -82);
-				addOffset("singRIGHT",-264, -161);
-				addOffset("singLEFT",-219, -168);
-				addOffset("singDOWN",-249, -138);
+				addOffset("idle",-271, -78);
+				addOffset("singUP",-244, 18);
+				addOffset("singRIGHT",-264, -61);
+				addOffset("singLEFT",-219, -68);
+				addOffset("singDOWN",-249, -38);
                                 setGraphicSize(Std.int(width * 1.2));
                                          flipX = true;
 
