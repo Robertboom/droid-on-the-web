@@ -28,7 +28,7 @@ class OptionsMenu extends MusicBeatState
 
 	private var grpControls:FlxTypedGroup<Alphabet>;
 
-	var menuItems:Array<String> = ['controls', 'downscroll: off', 'Debug Menu', 'About'];
+	var menuItems:Array<String> = ['controls', 'downscroll: off'];
 
 	var _pad:FlxVirtualPad;
 
