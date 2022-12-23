@@ -211,11 +211,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Mickey1 Down', 24);
 				animation.addByPrefix('singLEFT', 'Mickey1 Left', 24);
 
-				addOffset("idle",151, 0);
-				addOffset("singUP",151, 0);
-				addOffset("singRIGHT",151, 0);
-				addOffset("singLEFT",151, 0);
-				addOffset("singDOWN",151, 0);
+				addOffset("idle",151, 100);
+				addOffset("singUP",151, 100);
+				addOffset("singRIGHT",151, 100);
+				addOffset("singLEFT",151, 100);
+				addOffset("singDOWN",151, 100);
                                 setGraphicSize(Std.int(width * 1.4));
                           
                                  case 'bffake':
@@ -226,12 +226,21 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'left', 24);
 				animation.addByPrefix('singDOWN', 'down', 24);
 				animation.addByPrefix('singLEFT', 'right', 24);
+                                animation.addByPrefix('singUPmiss', 'idle', 24);
+				animation.addByPrefix('singRIGHTmiss', 'idle', 24);
+				animation.addByPrefix('singDOWNmiss', 'idle', 24);
+				animation.addByPrefix('singLEFTmiss', 'idle', 24);
+
 
 				addOffset("idle",-271, -78);
 				addOffset("singUP",-244, 18);
 				addOffset("singRIGHT",-264, -61);
 				addOffset("singLEFT",-219, -68);
 				addOffset("singDOWN",-249, -38);
+                                addOffset("singUPmiss",-271, -78);
+				addOffset("singRIGHTmiss",-271, -78);
+				addOffset("singLEFTmiss",-271, -78);
+				addOffset("singDOWNmiss",-271, -78);
                                 setGraphicSize(Std.int(width * 1.2));
                                          flipX = true;
 
